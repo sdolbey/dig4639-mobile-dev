@@ -9,3 +9,6 @@ Hi there. My name is Steven Dolbey. I'm a highly-motivated Web Design student lo
 
 My LinkedIn profile is [here.](https://www.linkedin.com/in/steven-dolbey-003a87116/)
 
+## Merging
+1. Beep
+2. Boop
