@@ -9,3 +9,6 @@ Hi there. My name is Steven Dolbey. I'm a highly-motivated Web Design student lo
 
 My LinkedIn profile is [here.](https://www.linkedin.com/in/steven-dolbey-003a87116/)
 
+## Conflicts
+
+This is gonna make an uh oh because it's different from what I did locally.
