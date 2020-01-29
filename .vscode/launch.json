@@ -19,6 +19,15 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8000",
             "webRoot": "${workspaceFolder}/ice/w2a"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Lab1 Debug",
+            "program": "${workspaceFolder}/labs/1/index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
         }
     ]
 }
