@@ -1,4 +1,4 @@
-import { Sum, AddList, ContainsString } from './MyMath.js'
+import { Sum, AddList, ContainsString, DivideBy, ReSortedNumbers } from './MyMath.js'
 
 describe("Sum", () => {
   test('Whether undefined is returned on invalid type', () => {
@@ -10,6 +10,26 @@ describe("Sum", () => {
   test('produces the sum of 10 + 20, whcih should be 30', () => {
     expect(Sum(10, 20)).toBe(30)
   })
+})
+
+describe ("DivideBy", () => {
+
+  test('dividing 4 by 2 is 2', () => {
+    expect(DivideBy(4, 2)).toBe(2)
+  })
+
+  test('dividing by zero', () => {
+    expect(DivideBy(4, 0)).toBeUndefined()
+  })
+
+})
+
+describe ("sorting", () => {
+
+  test('checking to see if numbers are sorted', () => {
+    expect(ReSortedNumbers(4, 2, 3)).toEqual(2,3,4)
+  })
+
 })
 
 describe("AddList", () => {

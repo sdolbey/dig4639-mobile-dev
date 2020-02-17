@@ -19,6 +19,26 @@ function AddList (numbers) {
   return result
 }
 
+function DivideBy(a, b) {
+  let result = undefined 
+
+  if(typeof a == "number" && typeof b == "number" && b != 0) { 
+    result = a / b
+  }
+  return result 
+}
+
+function ReSortedNumbers(array) {
+  let result = undefined; 
+
+  if(Array.isArray(array) && array.length > 0) {
+    for (var i = 0; i < array.length; i++) { 
+      result = array.sort(); 
+    }
+  }
+  return result; 
+}
+
 function ContainsString (first, second) {
   //Returns true if the first parameter has as a substring the second parameter, both of which must be strings.
   let result = false
@@ -30,7 +50,17 @@ function ContainsString (first, second) {
   return result
 }
 
+function Adder(a, b) {
+  let result = undefined; 
+  if (typeof a == "number" && typeof b == "number"){
+    result = a + b
+  }
+  return result
+}
 
 export { Sum };
 export { AddList };
+export { DivideBy };
+export { ReSortedNumbers };
 export { ContainsString };
+export { Adder };
