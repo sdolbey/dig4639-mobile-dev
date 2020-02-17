@@ -1,3 +1,6 @@
+var a = 5
+
+console.log(a)
 class Pet {
   constructor (props) {
     this.props = props
@@ -15,11 +18,14 @@ class Pet {
     return 'I make this sound: '
   }
 
-    getIdentity = () => {
-      console.log(this)
-    }
+  getIdentity = () => {
+    console.log(this)
+  }
 
-    getSum = (a, b) => a + b;
+  // getSum = (a,b) => a + b
+  getSum = (a, b) => {
+    return a + b
+  }
 }
 
 class Cat extends Pet {
@@ -29,10 +35,9 @@ class Cat extends Pet {
   }
 
   getSpeech () {
-    return super.getSpeech() + 'Meow!'
+    return super.getSpeech() + 'Meow!!'
   }
 }
-
 class Dog extends Pet {
   constructor (props) {
     super(props)
@@ -40,10 +45,9 @@ class Dog extends Pet {
   }
 
   getSpeech () {
-    return super.getSpeech() + 'Ruff ruff!'
+    return super.getSpeech() + 'Ruff Ruff!!'
   }
 }
-
 function sayName (pet) {
   console.log(`My name is ${pet.getName()}, and I am a ${pet.getSpecies()}`)
   console.log(`${pet.getSpeech()}`)

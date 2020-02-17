@@ -4,7 +4,7 @@ import './App.css';
 
 function NameBadge(props) {
   console.log(props);
-  return (
+  return ( 
     <p>My name is {props.name}</p>
   )
 }
