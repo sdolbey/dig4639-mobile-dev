@@ -1,0 +1,15 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+.close {
+    font-size: 1.5em;
+    float: right;
+    cursor: pointer;
+  }
