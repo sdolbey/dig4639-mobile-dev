@@ -1,0 +1,184 @@
+[
+  {
+    "question": "What is the most popular programming language in the world?",
+    "possibleAnswers":
+    [
+      {
+        "text":"JavaScript",
+        "correct":true
+      },
+      {
+        "text": "C++",
+        "correct":false
+      },
+      {
+        "text": "Python",
+        "correct":false
+      },
+      {
+        "text": "Go",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The command 'npm start' is used with React to build the current code and start a development server.",
+    "possibleAnswers":
+    [
+      {
+        "text":"True",
+        "correct":true
+      },
+      {
+        "text": "False",
+        "correct":false
+      }
+    ]
+  },
+  {
+    "question": "In JavaScript, the keyword 'class' is used to define an object.",
+    "possibleAnswers":
+    [
+      {
+        "text":"True",
+        "correct":true
+      },
+      {
+        "text": "False",
+        "correct":false
+      }
+    ]
+  },
+  {
+    "question": "Which one of these is an example of an arrrow function in Javascript?",
+    "possibleAnswers":
+    [
+      {
+        "text":"function() {}",
+        "correct":false
+      },
+      {
+        "text": "function()",
+        "correct":false
+      },
+      {
+        "text": "() => {}",
+        "correct":true
+      }
+    ]
+  },
+  {
+    "question": "Which JavaScript function can be used to run on every entry in an array?",
+    "possibleAnswers":
+    [
+      {
+        "text":"pop()",
+        "correct":false
+      },
+      {
+        "text": "push()",
+        "correct":false
+      },
+      {
+        "text": "map()",
+        "correct":true
+      }
+    ]
+  },
+  {
+    "question": "Arrow functions bind 'this' where the function is defined",
+    "possibleAnswers":
+    [
+      {
+        "text":"True",
+        "correct":true
+      },
+      {
+        "text": "False",
+        "correct":false
+      }
+    ]
+  },
+  {
+    "question": "Which one of these is an example of a Javascript ES6 template literal?",
+    "possibleAnswers":
+    [
+      {
+        "text":"`string text ${expression} string text`",
+        "correct":true
+      },
+      {
+        "text": "<Literal content=\"expression\" />",
+        "correct":false
+      },
+      {
+        "text": "<div>{expression}</div>",
+        "correct":false
+      },
+      {
+        "text": "<Literal content={expression} />",
+        "correct":false
+      }
+    ]
+  }
+  ,
+  {
+    "question": "Which JavaScript array function adds an entry to the end of an array?",
+    "possibleAnswers":
+    [
+      {
+        "text":"pop()",
+        "correct":false
+      },
+      {
+        "text": "map()",
+        "correct":false
+      },
+      {
+        "text": "filter()",
+        "correct":false
+      },
+      {
+        "text": "push()",
+        "correct":true
+      }
+    ]
+  },
+  {
+    "question": "Which one of these is an example of a Javascript object literal?",
+    "possibleAnswers":
+    [
+      {
+        "text":"<Example content={expression} />",
+        "correct":false
+      },
+      {
+        "text": "let example = {property: value};",
+        "correct":true
+      },
+      {
+        "text": "class Example {}",
+        "correct":false
+      },
+      {
+        "text": "example();",
+        "correct":false
+      }
+    ]
+  }
+  ,
+  {
+    "question": "The keyword 'const' defines a variable whose value can be changed after being created",
+    "possibleAnswers":
+    [
+      {
+        "text":"True",
+        "correct":false
+      },
+      {
+        "text": "False",
+        "correct":true
+      }
+    ]
+  }
+]
